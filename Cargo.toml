@@ -1,0 +1,16 @@
+[package]
+name = "ecos-rs"
+version = "0.1.0"
+authors = ["Ben Ruijl <benruyl@gmail.com>"]
+keywords = ["convex", "optimization", "ecos"]
+categories = ["api-bindings", "mathematics", "algorithms"]
+repository = "https://github.com/benruijl/ecos-rs"
+license = "MIT"
+readme = "README.md"
+description = "Bindings to the ECOS convex second-order cone program solver"
+
+[lib]
+name = "ecos"
+path = "src/lib.rs"
+
+[dependencies]
